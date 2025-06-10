@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Mogra&family=Staatliches&family=Tiny5&display=swap');
+
+*{
+    margin:0;
+}
+
+body{
+    background-color: #1e1e1e;
+    height: 100vh;
+}
+
+.card{
+    border: rgb(90, 90, 90) 3px solid ;
+    background-color: #2c2c2c;
+    width: 20%;
+    height: 400px;
+    text-align: center;
+
+}
+
+.titulo_index{
+    text-align: center;
+    font-family: "Jerey 10", sans-serif;
+    color: #ffd700;
+    
+    padding: 30px 0 30px 0;
+    margin: 0 0 50px 0;
+    font-size: 9rem;
+    background-color: #111;
+    letter-spacing: 0.25em;
+    text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68; /*6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68;*/
+}
+
+.figure__img{
+    width: 50%;
+    margin-top: 25px;
+    margin-bottom:10px;
+    border-radius: 50%;
+}
+
+.footer__piePagina{
+    text-align: center;
+    color: aliceblue;
+}
+
+.card__nombre{
+    font-family: "Staatliches", sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.card__numero{
+    margin: 0 5px 0 0;
+    background-color: gray;
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    color: white;
+    font-family:"Staatliches", sans-serif;
+}
+
+.card__titulos{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.card_tipo1{
+    background-color: #ff6f00;
+    margin: 0 5px 0 0;
+    width: 100px;
+        padding: 5px;
+
+    
+    color: white;
+    font-family:"Staatliches", sans-serif;
+    border-radius: 10px;
+
+}
+
+.card_tipo2{
+    background-color: #d1ca64;
+    margin: 0 0 0 5px;
+    padding: 5px;
+    width: 100px;
+    
+    color: white;
+    font-family:"Staatliches", sans-serif;
+    border-radius: 10px;
+}
+.peso, .altura{
+    margin: 10px 5px 0 0;
+    background-color: #444;
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    color: white;
+    font-family:"Staatliches", sans-serif;
+}
+.contenedor__cartas{
+    display:flex;
+    justify-content: space-around;
+    margin: 100px 0 50px 0 ;
+}
+
+
+
+
+
+
+
+
+
+.card button {
+    margin-top: 15px;
+    padding: 8px 16px;
+    background-color: #ff1744;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #d50000;
+}
+
+.figure__img {
+    width: 90%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    object-fit:cover;
+    height: 180px;
+
+}
